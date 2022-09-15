@@ -20,4 +20,7 @@ public class AccountAppModel {
     private Double accountBalance;
     private Double amountDeposited;
     private Double amountWithdrawn;
+
+    public AccountAppModel() {
+    }
 }
