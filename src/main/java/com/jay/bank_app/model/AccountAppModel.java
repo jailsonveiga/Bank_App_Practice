@@ -23,4 +23,21 @@ public class AccountAppModel {
 
     public AccountAppModel() {
     }
+
+public AccountAppModel(Long id, String name, String email, Integer age, String streetAddress, String city, String state, String country, String phoneNumber, Integer accountNumber, String accountType, Double accountBalance, Double amountDeposited, Double amountWithdrawn) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.streetAddress = streetAddress;
+        this.city = city;
+        this.state = state;
+        this.country = country;
+        this.phoneNumber = phoneNumber;
+        this.accountNumber = accountNumber;
+        this.accountType = accountType;
+        this.accountBalance = accountBalance;
+        this.amountDeposited = amountDeposited;
+        this.amountWithdrawn = amountWithdrawn;
+    }
 }
